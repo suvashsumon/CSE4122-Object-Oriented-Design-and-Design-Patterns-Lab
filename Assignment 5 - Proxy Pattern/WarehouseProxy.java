@@ -11,4 +11,15 @@ class WarehouseProxy implements Warehouse {
 
         return realWarehouse.listProducts();
     }
+
+    @Override
+    public String sellProduct(String product)
+    {
+        if(realWarehouse==null)
+        {
+            realWarehouse = new RealWarehouse();
+        }
+
+        return realWarehouse.sellProduct(product);
+    }
 }

@@ -10,5 +10,8 @@ public class OnlineRetailerShop {
         for (String product : products) {
             System.out.println(product);
         }
+
+        System.out.println("Selling : "+warehouse.sellProduct("Motorola"));
+        System.out.println("Selling : " + warehouse.sellProduct("Iphone"));
     }
 }
