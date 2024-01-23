@@ -15,7 +15,7 @@ class WarehouseProxy implements Warehouse {
     @Override
     public String sellProduct(String product)
     {
-        if(realWarehouse==null)
+        if(realWarehouse==null) 
         {
             realWarehouse = new RealWarehouse();
         }

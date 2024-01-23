@@ -8,7 +8,7 @@ public class OnlineRetailerShop {
 
         System.out.println("Products available in the online retail store:");
         for (String product : products) {
-            System.out.println(product);
+            System .out.println(product);
         }
 
         System.out.println("Selling : "+warehouse.sellProduct("Motorola"));
